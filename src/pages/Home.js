@@ -1,10 +1,13 @@
 import React from 'react'
-import './style.css'
+import './style.css';
+import Showcase from '../components/Showcase';
+import Photos from '../components/Photos';
 
 function Home() {
     return (
         <div className="space">
-            <h1>Hello Home</h1>
+            <Showcase/>
+            <Photos />
         </div>
     )
 }
